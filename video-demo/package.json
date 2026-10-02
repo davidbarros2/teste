@@ -1,0 +1,20 @@
+{
+  "name": "video-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "still": "remotion still src/index.tsx Enviar",
+    "render": "remotion render src/index.tsx Enviar out/enviar.mp4",
+    "studio": "remotion studio src/index.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/cli": "^4.0.532",
+    "@remotion/transitions": "^4.0.532",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.532"
+  }
+}
