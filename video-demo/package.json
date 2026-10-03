@@ -5,7 +5,8 @@
   "scripts": {
     "still": "remotion still src/index.tsx Enviar",
     "render": "remotion render src/index.tsx Enviar out/enviar.mp4",
-    "studio": "remotion studio src/index.tsx"
+    "studio": "remotion studio src/index.tsx",
+    "render:tron": "remotion render src/index.tsx EnviarTron out/enviar-tron.mp4"
   },
   "keywords": [],
   "author": "",
